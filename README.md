@@ -18,4 +18,5 @@ The script ==misc.py== in ```/solvers``` is used to produce the necessary parame
 Some functionalities were modified in ```macros1.sage``` so one can run the scripts in our setting. See original: ```macros.sage```
 
 ---------------------Hardware Implementation------------------------
+
 In ```/rtl```.
