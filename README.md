@@ -3,8 +3,19 @@ Supplementary Materials for the paper "Efficient Authentication Protocols from t
 
 -------------------Parameters table----------------
 
-Location: /solvers
+Location: /solvers/attack_cost/RSDP
 
-The script ==test.py== is used to produce the necessary parameters to pass to the function shifted BJMM (e.g., linearity, the size of shifted set...)
+```sage auth_security.sage```
 
-```python3 test.py```
+Some details:
+
+The scripts were obtained from CROSS authors through private communications. We modified the scripts so that they can be used in our settings.
+
+The script ==misc.py== in ```/solvers``` is used to produce the necessary parameters to pass to the function shifted BJMM (e.g., linearity, the size of shifted sets...)
+
+```python3 misc.py```
+
+Some functionalities were modified in ```macros1.sage``` so one can run the scripts in our setting. See original: ```macros.sage```
+
+---------------------Hardware Implementation------------------------
+In ```/rtl```.
